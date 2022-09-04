@@ -22,15 +22,20 @@
             this.current_loud = ii
         },
         // changing the value after modulo will change which character will be caps
+        
         go_go_loud() {
-            
-            for(let i = 0;i < this.current_loud.length;i++) {
-                if(((i+1) % 1=== 0) ) {
-                    this.now_loud += this.current_loud[i].toUpperCase();
-                }else{
-                    this.now_loud += this.current_loud[i]
-                }
-            }
+            this.now_loud = this.current_loud.toUpperCase() + ' !!!!!!!!'
+
+            // wanted to have more control which letter was applied caps but it repeated itself on each button click
+            // for(let i = 0;i < this.current_loud.length;i++) {
+
+                
+            //     // if(((i+1) % 1=== 0) ) {
+            //     //     this.now_loud += this.current_loud[i].toUpperCase();
+            //     // }else{
+            //     //     this.now_loud += this.current_loud[i]
+            //     // }
+            // }
 
         }
        },

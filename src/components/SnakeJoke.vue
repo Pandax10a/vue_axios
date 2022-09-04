@@ -3,7 +3,7 @@
         <button @click="go_go_snake()">Snake style</button>
 
         
-        <p>{{now_loud}}</p>
+        <p>{{now_snake}}</p>
     </div>
 </template>
 
@@ -23,13 +23,9 @@
         },
         
         go_go_snake() {
-            
-            for(let i = 0;i < this.current_loud.length;i++) {
-                if(((i+1) % 1=== 0) ) {
-                    this.now_loud += this.current_loud[i].toUpperCase();
-                }else{
-                    this.now_loud += this.current_loud[i]
-                }
+            // converting spaces to underscore, then stored into variable now_nake
+            for(let i = 0;i < this.current_snake.length;i++) {
+                this.now_snake = this.current_snake.replaceAll(" ", "_")
             }
 
         }

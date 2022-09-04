@@ -5,6 +5,7 @@
     <loud-joke></loud-joke>
     
     <snake-joke></snake-joke>
+    <normal-joke></normal-joke>
   </div>
 </template>
 
@@ -12,16 +13,19 @@
 import JokeButton from '@/components/JokeButton.vue';
 import LoudJoke from '@/components/LoudJoke.vue';
 import SnakeJoke from '@/components/SnakeJoke.vue';
+import NormalJoke from '@/components/NormalJoke.vue';
 
 export default {
   components: {
     JokeButton,
     LoudJoke,
-    SnakeJoke
+    SnakeJoke,
+    NormalJoke
   },
 };
 
-</script>
+</script>,
+    NormalJoke
 
 <style>
 #app {

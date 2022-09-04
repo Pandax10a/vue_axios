@@ -5,6 +5,7 @@
 </template>
 
 <script>
+// stored the joke also in cookies also, was going to use that instead of emit. but running out of time.
 import axios from "axios"
 import Cookies from "vue-cookies"
 
