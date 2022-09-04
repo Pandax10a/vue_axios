@@ -24,8 +24,7 @@ export default {
   },
 };
 
-</script>,
-    NormalJoke
+</script>
 
 <style>
 #app {
